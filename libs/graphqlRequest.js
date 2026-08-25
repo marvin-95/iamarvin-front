@@ -1,5 +1,5 @@
 export default async function graphqlRequest(query) {
-    const url = "https://iamarvin.com/megaincrediblebackoffice/graphql"; 
+    const url = "https://iammarvin.com/megaincrediblebackoffice/graphql"; 
     const headers = {'Content-Type': 'application/json'}; 
 
     const res = await fetch(url, {

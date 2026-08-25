@@ -38,7 +38,7 @@ export async function getStaticPaths({ locales, defaultLocale }) {  // Ajout de 
 export async function getStaticProps({ params, locale }) { // Ajout du paramètre locale
   const postData = await getSinglePost(params.postSlug);
 
-  let featuredImageUrl = "http://localhost:8888/iamarvin-back/wp-content/uploads/2024/01/default-thumb.png";
+  let featuredImageUrl = "http://localhost:8888/iammarvin-back/wp-content/uploads/2024/01/default-thumb.png";
 
   if (postData.featuredImage && postData.featuredImage.node && postData.featuredImage.node.mediaDetails && postData.featuredImage.node.mediaDetails.sizes && postData.featuredImage.node.mediaDetails.sizes[1] && postData.featuredImage.node.mediaDetails.sizes[1].sourceUrl) {
     featuredImageUrl = postData.featuredImage.node.mediaDetails.sizes[1].sourceUrl;

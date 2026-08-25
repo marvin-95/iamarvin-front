@@ -28,7 +28,7 @@ export default function Blog({ allPosts }) {
   const lang = router.locale || 'fr'; // Récupère la langue actuelle
   const blogT = useScopedI18n("blog"); // Utilisation du hook de traduction pour la page blog
 
-  const backgroundImage = "https://iamarvin.com/megaincrediblebackoffice/wp-content/uploads/2024/04/alvaro-reyes-qWwpHwip31M-unsplash-min-scaled.jpg";
+  const backgroundImage = "https://iammarvin.com/megaincrediblebackoffice/wp-content/uploads/2024/04/alvaro-reyes-qWwpHwip31M-unsplash-min-scaled.jpg";
 
   return (
     <>

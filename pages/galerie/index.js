@@ -27,7 +27,7 @@ export default function Galerie({ allGaleriePosts }) {
   const lang = router.locale || 'fr'; // Récupère la langue actuelle
   const galleryT = useScopedI18n("gallery"); // Utilisation du hook de traduction pour la galerie
 
-  const backgroundImage = "https://iamarvin.com/megaincrediblebackoffice/wp-content/uploads/2024/04/hector-martinez-EG49vTtKdvI-unsplash-min-scaled.jpg";
+  const backgroundImage = "https://iammarvin.com/megaincrediblebackoffice/wp-content/uploads/2024/04/hector-martinez-EG49vTtKdvI-unsplash-min-scaled.jpg";
 
   return (
     <>

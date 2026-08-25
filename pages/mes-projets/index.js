@@ -24,7 +24,7 @@ export async function getStaticProps({ locale }) { // Récupérez le locale dans
 
 export default function MesProjets({ allPortfolioPost }) {
   const backgroundImage =
-    'https://iamarvin.com/megaincrediblebackoffice/wp-content/uploads/2024/04/alvaro-reyes-qWwpHwip31M-unsplash-min-scaled.jpg';
+    'https://iammarvin.com/megaincrediblebackoffice/wp-content/uploads/2024/04/alvaro-reyes-qWwpHwip31M-unsplash-min-scaled.jpg';
 
   const t = useI18n(); // Hook global pour la traduction
   const projectsT = useScopedI18n('projects'); // Traductions spécifiques à la page "Mes Projets"

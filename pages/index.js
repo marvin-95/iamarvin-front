@@ -81,7 +81,7 @@ export default function Home({ allPortfolioPost }) {
           <div className='pdp'>
             <Image
               data-aos="zoom-in"
-              src="https://iamarvin.com/megaincrediblebackoffice/wp-content/uploads/2024/02/A970FA8E-F954-49F1-A284-2D24F0E70A14.jpeg"
+              src="https://iammarvin.com/megaincrediblebackoffice/wp-content/uploads/2024/02/A970FA8E-F954-49F1-A284-2D24F0E70A14.jpeg"
               width={1440}
               height={1799}
               alt="Picture of the author"
@@ -124,7 +124,7 @@ export default function Home({ allPortfolioPost }) {
             )}
 
             <div className='jobbutton' data-aos="fade-up" data-aos-duration={2}>
-              <a className='CVlink' href='https://iamarvin.com/iamarvin_front/media/CV-Marvin-mensah2024_compressed.pdf' target="_blank" rel="noopener noreferrer">
+              <a className='CVlink' href='https://iammarvin.com/iammarvin_front/media/CV-Marvin-mensah2024_compressed.pdf' target="_blank" rel="noopener noreferrer">
                 {landingT('see_cv')}
               </a>
             </div>

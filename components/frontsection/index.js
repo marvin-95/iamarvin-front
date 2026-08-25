@@ -45,7 +45,7 @@ const Frontsection = () => {
                             loop
                             muted
                             playsInline
-                            src="https://iamarvin.com/megaincrediblebackoffice/wp-content/uploads/2024/12/video-demo.mp4"
+                            src="https://iammarvin.com/megaincrediblebackoffice/wp-content/uploads/2024/12/video-demo.mp4"
                           ></video>
                           
                           <div className={textSection}>
@@ -69,7 +69,7 @@ const Frontsection = () => {
                                 <ul className={menulist}>
                                   <li> 
                                     
-                                    <a  href='https://iamarvin.com/iamarvin_front/media/CV-Marvin-mensah2024_compressed.pdf' target="_blank" rel="noopener noreferrer"> {t('landing.see_cv')}                                  
+                                    <a  href='https://iammarvin.com/iammarvin_front/media/CV-Marvin-mensah2024_compressed.pdf' target="_blank" rel="noopener noreferrer"> {t('landing.see_cv')}                                  
                                     <ArrowIcon                                                                                                          
                                           alt="Arrow icon"
                                           className={ArrowIconSvg}

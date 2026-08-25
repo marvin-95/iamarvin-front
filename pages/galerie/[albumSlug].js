@@ -11,7 +11,7 @@ export async function getStaticProps({params}){
   const postData = await getSinglePost(params.albumSlug);
   
   
-  let featuredImageUrl = "http://localhost:8888/iamarvin-back/wp-content/uploads/2024/01/default-thumb.png";
+  let featuredImageUrl = "http://localhost:8888/iammarvin-back/wp-content/uploads/2024/01/default-thumb.png";
   
 
   if (postData.featuredImage && 

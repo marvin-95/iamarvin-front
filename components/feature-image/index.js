@@ -6,7 +6,7 @@ import { innerImg , imgWrapper } from './feature-image.module.scss'
 export default function FeatureImage({post}) {
   let img = '';
   
-  const defaultFeaturedImageUrl = "http://localhost:8888/iamarvin-back/wp-content/uploads/2024/01/default-thumb.png";
+  const defaultFeaturedImageUrl = "http://localhost:8888/iammarvin-back/wp-content/uploads/2024/01/default-thumb.png";
   const defaultWidth = "600"
   const defaultHeight = "300"
 
